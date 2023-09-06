@@ -21,14 +21,17 @@ article {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  width: 50vw;
-  max-width: 25em;
-  min-width: 20em;
+  width: 60em;
+  height: 43.2em;
   border-radius: 1rem;
   background: red;
-  background: linear-gradient(0deg, rgb(225, 175, 175) 40%,rgb(225, 175, 175) 100%);
+  background: linear-gradient(0deg, rgb(19, 207, 228) 40%,rgb(11, 65, 135) 100%);
   box-shadow: 0 0 20px 20px rgba(0,0,0,.1);
   transition: .25s;
+  -webkit-mask-image: url(../assets/wolk.png);
+  mask-image: url(../assets/wolk.png);
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
 }
 
 header {
