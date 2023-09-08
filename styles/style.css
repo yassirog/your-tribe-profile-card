@@ -29,7 +29,9 @@ article {
   box-shadow: 0 0 20px 20px rgba(0,0,0,.1);
   transition: .25s;
   -webkit-mask-image: url(../assets/wolk.png);
+  -webkit-mask-image: url(../assets/wolk2.png);
   mask-image: url(../assets/wolk.png);
+  -webkit-mask-image: url(../assets/testwolk.png);
   -webkit-mask-size: 100% 100%;
   mask-size: 100% 100%;
 }
