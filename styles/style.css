@@ -24,14 +24,19 @@ article {
   width: 60em;
   height: 43.2em;
   border-radius: 1rem;
-  background: red;
-  background: linear-gradient(0deg, rgb(19, 207, 228) 40%,rgb(11, 65, 135) 100%);
+  font-weight: bold;
+  background-color:rgb(117, 117, 117);
   box-shadow: 0 0 20px 20px rgba(0,0,0,.1);
   transition: .25s;
   -webkit-mask-image: url(../assets/wolk.png);
   mask-image: url(../assets/wolk.png);
   -webkit-mask-size: 100% 100%;
   mask-size: 100% 100%;
+}
+
+article:hover {
+  background-color: rgb(69, 137, 206);
+  transition: 1s ease-in-out;
 }
 
 header {
@@ -42,9 +47,15 @@ header {
   justify-content: flex-end;
 }
 
+em {
+    text-decoration: underline;
+}
+
 h1 {
   margin: 2rem 0 1rem;
   color: black;
+  font-size: 60px;
+  text-shadow: 2px 2px 4px black;
 }
 
 button {
@@ -82,8 +93,8 @@ button svg:nth-of-type(2) {
 
 img {
   position: relative;
-  top: 2rem;
-  width: 10em;
+  top: 4rem;
+  width: 15em;
   height: auto;
   border: 5px solid black;
   border-radius: 10em;
@@ -101,9 +112,10 @@ dl {
   justify-items: center;
   align-items: start;
   width: 100%;
+  max-width: 1000px;
   margin-top: -3rem;
   margin-bottom: 0;
-  padding: 5rem 0 3rem;
+  padding: 5rem 3em 3rem 4em; 
   text-align: center;
   background: rgb(255,255,255);
 }
@@ -175,6 +187,9 @@ body.expand img {
   width: 15em;
 }
 
+img:hover {
+  border: 10px solid white;
+}
 
 @media (prefers-color-scheme: dark) {
   body{
