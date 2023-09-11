@@ -158,7 +158,6 @@ article > p {
   padding: 3rem 2rem;
   border-radius: 0 0 1rem 1rem;
   text-align: center;
-  background: rgba(255,255,255, 0.5);
 }
 
 /* expand content */
@@ -194,6 +193,33 @@ img:hover {
 }
 
 @media (prefers-color-scheme: dark) {
+
+  article:hover {
+    background-color: #3e3e3e;
+    transition: 1s ease-in-out;
+  }
+
+  img:hover {
+    border: 10px solid #868585;
+  }
+
+  article{
+    -webkit-mask-image: url(../assets/maan.png);
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    width: 51.2m;
+    height: 51.2em;
+  }
+
+  dl {
+    background-color: #7e7d7d;
+  }
+
+  dt {
+    padding: 2rem 7em 5rem 5em; 
+    text-align: center;
+  }
+
   body{
     background-color: #303030;
     color: #999;
@@ -201,5 +227,6 @@ img:hover {
 
   h1{
     color: #999;
+
   }
 }
